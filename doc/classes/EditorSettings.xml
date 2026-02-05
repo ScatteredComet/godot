@@ -739,6 +739,11 @@
 		</member>
 		<member name="editors/visual_editors/connection_colors/scalar_color" type="Color" setter="" getter="">
 			The color of a port/connection of scalar type (float, int, unsigned int).
+			[codeblock]
+				- /usr/bin/blender
+				- /usr/local/bin/blender
+				- /opt/blender/bin/blender
+			[/codeblock]
 		</member>
 		<member name="editors/visual_editors/connection_colors/transform_color" type="Color" setter="" getter="">
 			The color of a port/connection of transform type.
