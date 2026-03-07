@@ -10,6 +10,7 @@
 	</tutorials>
 	<members>
 		<member name="op_type" type="int" setter="set_op_type" getter="get_op_type" enum="VisualShaderNodeRemap.OpType" default="0">
+			The scalar or vector type that the remap operation is performed on. # Alternative would be The scalar or vector type of the value to be remapped.
 		</member>
 	</members>
 	<constants>

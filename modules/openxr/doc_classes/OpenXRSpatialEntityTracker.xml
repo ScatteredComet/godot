@@ -21,6 +21,8 @@
 		<signal name="spatial_tracking_state_changed">
 			<param index="0" name="spatial_tracking_state" type="int" />
 			<description>
+				Emitted when a tracker's [member spatial_tracking_state] is changed.
+				[b]Note:[/b] This signal is only emitted when the new value being set is different from the old value.
 			</description>
 		</signal>
 	</signals>

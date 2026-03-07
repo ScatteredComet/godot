@@ -34,5 +34,10 @@
 		</constant>
 		<constant name="OPENXR_ACTION_POSE" value="3" enum="ActionType">
 		</constant>
+		<constant name="OPENXR_ACTION_HAPTIC" value="4" enum="ActionType">
+		</constant>
+		<constant name="OPENXR_ACTION_MAX" value="5" enum="ActionType">
+			Represents the size of the [enum ActionType] enum.
+		</constant>
 	</constants>
 </class>
