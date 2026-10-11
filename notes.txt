@@ -1,0 +1,82 @@
+Non C# editor
+
+Project Settings
+
+could use improvement
+- root_node_layout_direction
+
+Missing
+- dotnet/project/assembly_name has no description but is in the ProjectSettings.xml?
+-> it only shows up in the .NET verison of the game (along with the other 2 dotnet/project/** settings & their descriptions)
+-> THIS IS A BUG
+some dotnet project and editor settings turn up in non dotnet version of the game
+but they either have no description and/or their enums render as pure numbers instead of strings
+
+Editor Settings
+- all dotnet/
+- all export/**, apart from export/ssh
+- all editors/bone_mapper -> exist but no description
+- all network/debug_adapter
+- asset_library/available_urls
+
+might it be worth describing what scrcpy/ is somewhere in the docs (check if it is, it might be already)
+
+---
+
+Missing from *.xml
+
+dotnet/
+    /editor
+        /external_editor
+        /custom_exec_path
+        /custom_exec_path_args
+    /build
+        /verbosity_level
+        /problems_layout
+        /no_console_logging
+        /create_binary_log
+
+export/
+    android/
+        debug_keystore/
+        debug_keystore_pass/
+        java_sdk_path/
+        android_sdk_path/
+        scrcpy/
+            screen_size/
+            path/
+            virtual_display/
+            no_decorations/
+            local_ime/
+        debug_keystore_user/
+        force_system_user/
+        shutdown_adb_on_exit/
+        one_click_deploy_clear_previous_install/
+        use_wifi_for_remote_debug/
+        wifi_remote_debug_host
+    macos/
+        rcodesign/
+        actool/
+    web/
+        http_port/
+        tls_key/
+        tls_certificate/
+        http_host/
+        use_tls/
+    windows/
+        rcedit/
+        osslsigncode/
+        wine/
+
+network/
+    remote_port/
+    request_timeout/
+    sync_breakpoints/
+
+asset_library
+    /available_urls
+
+---
+
+- partially closes https://github.com/godotengine/godot-docs/issues/7770
+- closes https://github.com/issues/created?issue=godotengine%7Cgodot-docs%7C11828
